@@ -5,6 +5,11 @@ export default Ember.Route.extend({
     return this.store.findRecord('city', params.city_id);
   },
 
+  afterModel: function(model){
+    //console.log(model.get('rentals').objectAt(1));
+    return model.get('rentals');
+  },
+
   actions: {
     save3(params) {
       var newRental= this.store.createRecord('rental', params);
