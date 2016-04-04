@@ -14,3 +14,11 @@ footer {
 button {
   margin: 5px;
 }
+
+li > p > img {
+  max-width: 450px;
+}
+
+img {
+  max-width: 1000px;
+}

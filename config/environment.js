@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'super-rentals',
     environment: environment,
-    firebase: 'https://super-rentalsbrad.firebaseio.com/',
+    firebase: 'https://amazing-rentals.firebaseio.com/',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
